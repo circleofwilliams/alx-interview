@@ -21,8 +21,6 @@ def island_perimeter(grid):
             
     for i in range(len(grid_dup)):
         grid_dup[i] = grid_dup[i][1:-1]
-            
-    print(grid_dup)
     
     if len(grid_dup) != 0:
         grid_dup = sorted(grid_dup, reverse=True)
