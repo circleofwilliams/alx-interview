@@ -6,6 +6,11 @@ A function to find the perimeter of an island
 
 
 def island_perimeter(grid):
+    '''
+        finding the perimeter of an island in a grid
+        arg: grid
+        return: perimeter
+    '''
     if 1 in grid[0] or 1 in grid[-1]:
         return None
 
